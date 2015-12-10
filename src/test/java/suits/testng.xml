@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestSuite">
+    <test name="LogIn">
+        <parameter name="login" value="testforselenium@mail.ru"/>
+        <parameter name="password" value="Tr@t@t@"/>
+        <parameter name="receiver" value="d.denni@mail.ru"/>
+        <parameter name="subject" value="Subject of letter"/>
+        <parameter name="body" value="There is a  body of the letter"/>
+        <classes>
+            <class name="LogInTest">
+                <methods>
+                    <include name="logInTest"></include>
+                    <include name="writeNewMailTest"></include>
+                    <include name="checkMailTest"></include>
+                    <include name="checkDraftAfterSendingTest"></include>
+                    <include name="checkSentAfterSendingTest"></include>
+                    <include name="logOutTest"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

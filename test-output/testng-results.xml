@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="80542" started-at="2015-12-10T06:45:40Z" finished-at="2015-12-10T06:47:00Z">
+    <groups>
+    </groups>
+    <test name="LogIn" duration-ms="80542" started-at="2015-12-10T06:45:40Z" finished-at="2015-12-10T06:47:00Z">
+      <class name="LogInTest">
+        <test-method status="PASS" signature="baseMail()[pri:0, instance:LogInTest@d70c109]" name="baseMail" is-config="true" duration-ms="12096" started-at="2015-12-10T12:45:40Z" finished-at="2015-12-10T12:45:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseMail -->
+        <test-method status="PASS" signature="logInTest(java.lang.String, java.lang.String)[pri:0, instance:LogInTest@d70c109]" name="logInTest" duration-ms="9762" started-at="2015-12-10T12:45:52Z" description="LogIn Test" finished-at="2015-12-10T12:46:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testforselenium@mail.ru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Tr@t@t@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logInTest -->
+        <test-method status="PASS" signature="writeNewMailTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:LogInTest@d70c109]" name="writeNewMailTest" duration-ms="39547" started-at="2015-12-10T12:46:01Z" description="write new mail, save to draft and check it" finished-at="2015-12-10T12:46:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[d.denni@mail.ru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Subject of letter]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[There is a  body of the letter]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeNewMailTest -->
+        <test-method status="PASS" signature="checkMailTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:LogInTest@d70c109]" name="checkMailTest" duration-ms="7374" started-at="2015-12-10T12:46:41Z" description="write new mail, save to draft and check it" finished-at="2015-12-10T12:46:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[d.denni@mail.ru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Subject of letter]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[There is a  body of the letter]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMailTest -->
+        <test-method status="PASS" signature="checkDraftAfterSendingTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:LogInTest@d70c109]" name="checkDraftAfterSendingTest" duration-ms="6811" started-at="2015-12-10T12:46:48Z" description="send the mail and check the draft folder" finished-at="2015-12-10T12:46:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[d.denni@mail.ru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Subject of letter]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[There is a  body of the letter]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDraftAfterSendingTest -->
+        <test-method status="PASS" signature="checkSentAfterSendingTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:LogInTest@d70c109]" name="checkSentAfterSendingTest" duration-ms="3249" started-at="2015-12-10T12:46:55Z" description="check that sent folder isn&#039;t contain the letter after sending" finished-at="2015-12-10T12:46:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[d.denni@mail.ru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Subject of letter]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[There is a  body of the letter]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSentAfterSendingTest -->
+        <test-method status="PASS" signature="logOutTest()[pri:0, instance:LogInTest@d70c109]" name="logOutTest" duration-ms="1685" started-at="2015-12-10T12:46:58Z" description="check that sent folder isn&#039;t contain the letter after sending" finished-at="2015-12-10T12:47:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:LogInTest@d70c109]" name="closeBrowser" is-config="true" duration-ms="6" started-at="2015-12-10T12:47:00Z" finished-at="2015-12-10T12:47:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- LogInTest -->
+    </test> <!-- LogIn -->
+  </suite> <!-- TestSuite -->
+</testng-results>

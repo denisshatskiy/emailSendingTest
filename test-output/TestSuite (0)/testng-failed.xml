@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite (0)]">
+  <parameter name="receiver" value="d.denni@mail.ru"/>
+  <parameter name="subject" value="Subject of letter"/>
+  <parameter name="body" value="There is a  body of the letter"/>
+  <test name="NewMail(failed)">
+    <parameter name="receiver" value="d.denni@mail.ru"/>
+    <parameter name="subject" value="Subject of letter"/>
+    <parameter name="body" value="There is a  body of the letter"/>
+    <classes>
+      <class name="WriteNewMail">
+        <methods>
+          <include name="writeNewMail" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- WriteNewMail -->
+    </classes>
+  </test> <!-- NewMail(failed) -->
+</suite> <!-- Failed suite [TestSuite (0)] -->

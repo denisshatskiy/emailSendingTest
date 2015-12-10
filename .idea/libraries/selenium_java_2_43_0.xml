@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="selenium-java-2.43.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../gmailTest/library/selenium-java-2.43.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
